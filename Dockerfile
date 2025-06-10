@@ -4,3 +4,5 @@ WORKDIR /app
 
 # ソースコードをコピー
 COPY . .
+
+RUN npm install -g pnpm
